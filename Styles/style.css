@@ -20,19 +20,20 @@ ight-gray : #f3f3f3
 }
 body {
     background-color: #f3f3f3;
-    width: 400px;
+    
     border: 1px solid black;
     font-family: "Montserrat";
-    padding: 16px;
+    padding: 15px;
     font-weight: 500;
+    font-size: 16px;
 }
 nav {
     padding: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 15px;
-    margin-bottom: 30px;
+    margin: 10px 15px;
+    margin-bottom: 20px;
 }
 .nav-links {
     position: absolute;
@@ -73,9 +74,6 @@ nav a {
     text-decoration: underline white 3px;
     font-size: 6vh;
 }
-.contenair {
-    border: 1px solid #d2483d;
-}
 h1 {
     font-family: "Bebas neue";
     font-size: 40px;
@@ -87,6 +85,7 @@ p {
     font-family: "Montserrat";
     font-size: 16px;
     padding: 5px 0;
+    line-height: 1.5;
 }
 .red-text {
     color: #d2483d;
@@ -120,8 +119,9 @@ h2 {
     font-family: "Bebas neue";
     font-size: 25px;
     text-align: center;
-    margin: 20px 0;
+    margin: 15px 0;
     text-decoration: underline #d2483d 4px;
+    margin-top: 30px;
 }
 .resto {
     margin: 10px;
@@ -156,9 +156,9 @@ article {
     line-height: 1.5;
     margin-bottom: 5px;
 }
-.contact a {
+a {
     color: black;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 16px;
 }
 .contact a:focus {
@@ -171,7 +171,7 @@ footer {
     height: 70px;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 .fb-logo {
     color: #f3f3f3;
@@ -182,28 +182,13 @@ footer {
     padding-bottom: 0;
     padding-right: 4px;
     font-weight: 900;
+    font-size: 20px;
 }
-.ig-logo {
-    color: #f3f3f3;
-    border: 2px solid white;
-    border-radius: 0.25em;
-    width: 25px;
-    height: 25px;
-    justify-content: space-between;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-.g1 {
-    width: 20px;
-    height: 20px;
-}
-.igpoint {
-    margin-bottom: 10px;
-}
-.ig1 img {
-    width: 100%;
-    height: 100%;
+.menu_p  {
+    width: 309px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
 /* ECRANS DE PLUS DE 600px */
 @media screen and (min-width :600px) {
